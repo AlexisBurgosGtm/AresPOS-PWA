@@ -9,6 +9,7 @@ const staticAssets = [
   './js/app.js',
   './manifest.json',
   './assets/vendor/@fortawesome/',
+  './sw.js'
 ];
 
 self.addEventListener('install', async function () {
